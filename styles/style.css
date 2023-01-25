@@ -243,6 +243,138 @@ p.love-enjoy-singlebox-info {
  end love & enjoy style section 
  --------------------------------*/
 
+ /*-------------------------------
+ start facts style section 
+ --------------------------------*/
+
+ .facts-title {
+    padding-top: 130px;
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.facts-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 100px;
+}
+
+.facts-boxes {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.facts-singlebox {
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.facts-singlebox img {
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.facts-singlebox p {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    padding-bottom: 5px;
+}
+
+.facts-singlebox h6 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #727272;
+}
+
+.facts-singlebox:hover {
+    background-color: #ff900e;
+    transition: .5s;
+    transform: translate(10px, 10px) rotate(90deg);
+}
+/*-------------------------------
+ end facts style section 
+ --------------------------------*/
+
+/*-------------------------------
+ start out team style section 
+ --------------------------------*/
+ #our-team {
+    margin-top: 100px;
+}
+
+ .our-team-boxes {
+     display: flex;
+     column-gap: 30px;
+     justify-content: center;
+     padding-bottom: 50px;
+ }
+
+
+ .our-tem-title {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 3.5rem;
+    color: #131313;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+.our-team-singelebox {
+    width: 312px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+ .our-team-singelebox img {
+    height: 300px;
+    border-radius: 5px;
+    width: 230px;
+}
+
+.our-team-singelebox h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #0c0c0c;
+
+}
+
+.our-team-singelebox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    color: #727272;
+}
+
+/*-------------------------------
+ end out team style section 
+ --------------------------------*/
+
+
+
+
+
+
+
+
 
 
 /* ---------
@@ -260,7 +392,6 @@ media query
     .nav-ul {
         flex-direction: column;
         margin-top: 20px;
-        /* align-items: flex-end; */
     }
     .nav-ul li{
         margin-top: 10px;
@@ -281,9 +412,9 @@ media query
     }
     
     .features-img img {
-        width: 100%;
+        width: 90%;
+        margin-left: 10px;
     }
-
     .fuatures-info {
         width: 100%;
         margin-top: 20px;
@@ -293,21 +424,20 @@ media query
     p.fuatures-info-description {
         width: 100%;
     }
-    .love-enjoy-details {
+    .love-enjoy-details{
         grid-template-columns: 1fr;
     }
     .love-enjoy-title {
-        width: 100%;
+        width: 61%;
     }
 
-    .love-enjoy-img img {
-        width: 100%;
-    }
-    
     .love-enjoy-img {
         width: 100%;
     }
     
+    .love-enjoy-img img {
+        width: 100%;
+    }
     
     .love-enjoy-btn {
         margin: 10px;
@@ -321,13 +451,9 @@ media query
         line-height: 46px;
         padding: 36px 30px;
     }
-
-    h1.love-enjoy-title {
-        width: 91%;
-    }
     
     p.love-enjoy-description {
-        width: 90%;
+        width: 69%;
         padding-left: 10px;
     }
     
@@ -340,8 +466,42 @@ media query
         padding-bottom: 73px;
     }
     
+    .love-enjoy-singlebox {
+        width: 81%;
+    }
+    
     p.love-enjoy-singlebox-info {
         width: 100%;
     }
+
+    .facts-title {
+        margin-left: 30px;
+    }
+    
+    .facts-description {
+        margin-left: 20px;
+    }
+
+    .facts-singlebox{
+        width: 80%;
+    }
+
+    .facts-boxes {
+        grid-template-columns: 1fr;
+        width: 100%;
+        row-gap: 85px;
+        margin-left: 33px;
+    }
+    .our-team-boxes {
+        flex-direction: column;
+    }
+    
+    .our-team-singelebox {
+        width: 90%;
+        margin: 0 10px 10px 10px;
+    }
 }
+
+    
+
 
