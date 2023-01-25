@@ -145,6 +145,104 @@ span.span-two {
 end feature style section 
 -----------------------------*/
 
+/*-------------------------------
+ start love & enjoy style section 
+ --------------------------------*/
+ .love-enjoy-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 54px;
+    align-items: center;
+    width: 100%;
+}
+
+.love-enjoy-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    width: 468px;
+}
+
+p.love-enjoy-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-top: 24px;
+    width: 586px;
+    padding-bottom: 30px;
+}
+
+.love-enjoy-singlebox {
+    width: 586px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+}
+
+.love-enjoy-singlebox-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+p.love-enjoy-singlebox-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 514px;
+}
+
+.love-enjoy-img {
+    width: 800px;
+    height: 1059px;
+}
+
+.love-enjoy-img img {
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+}
+
+.love-enjoy-btn {
+    margin-top: -121px;
+    margin-left: -37px;
+}
+
+.Experience-btn {
+    width: 342px;
+    height: 200px;
+    border: none;
+    outline: none;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    padding: 46px 42px;
+    cursor: pointer;
+}
+
+.Experience-btn span {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+/*-------------------------------
+ end love & enjoy style section 
+ --------------------------------*/
+
 
 
 /* ---------
@@ -193,6 +291,56 @@ media query
     }
     
     p.fuatures-info-description {
+        width: 100%;
+    }
+    .love-enjoy-details {
+        grid-template-columns: 1fr;
+    }
+    .love-enjoy-title {
+        width: 100%;
+    }
+
+    .love-enjoy-img img {
+        width: 100%;
+    }
+    
+    .love-enjoy-img {
+        width: 100%;
+    }
+    
+    
+    .love-enjoy-btn {
+        margin: 10px;
+        margin-left: 10px;
+    }
+    
+    button.Experience-btn {
+        width: 200px;
+        height: 150px;
+        font-size: 30px;
+        line-height: 46px;
+        padding: 36px 30px;
+    }
+
+    h1.love-enjoy-title {
+        width: 91%;
+    }
+    
+    p.love-enjoy-description {
+        width: 90%;
+        padding-left: 10px;
+    }
+    
+    .love-enjoy-boxes {
+        width: 100%;
+    }
+    
+    .love-enjoy-singlebox {
+        width: 81%;
+        padding-bottom: 73px;
+    }
+    
+    p.love-enjoy-singlebox-info {
         width: 100%;
     }
 }
