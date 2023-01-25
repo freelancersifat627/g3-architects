@@ -311,7 +311,7 @@ p.love-enjoy-singlebox-info {
  start out team style section 
  --------------------------------*/
  #our-team {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
  .our-team-boxes {
@@ -368,9 +368,42 @@ p.love-enjoy-singlebox-info {
  end out team style section 
  --------------------------------*/
 
+/*-------------------------------
+ start sponsors style section 
+ --------------------------------*/
+ #sponsors {
+    margin-top: 150px;
+}
 
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    padding-bottom: 24px;
+}
 
+.sponsors-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    text-align: center;
+    width: 542px;
+    margin: auto;
+    padding-bottom: 50px;
+}
 
+.sponsors-icon {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 130px;
+}
+/*-------------------------------
+ end sponsors style section 
+ --------------------------------*/
 
 
 
@@ -500,8 +533,20 @@ media query
         width: 90%;
         margin: 0 10px 10px 10px;
     }
+    .sponsors-title{
+        text-align: center;
+        width: 100%;
+    }
+    p.sponsors-description {
+        width: 100%;
+        text-align: center;
+    }
+    .sponsors-icon {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+        padding-left: 5px;
+    }
 }
 
     
-
 
